@@ -1,10 +1,10 @@
 import { createBrowserRouter } from "react-router-dom";
 import DonationDetails from "../components/Pages/DonationDetails/DonationDetails";
-import AllDonation from "../components/Pages/AllDonation.jsx/AllDonation";
 import Statistics from "../components/Pages/Statistics/Statistics";
 import Root from "../Root";
 import Home from "../components/Pages/Home/Home";
 import ErrorPage from "../components/Pages/ErrorPage.jsx/ErrorPage";
+import MyDonations from "../components/Pages/MyDonations/MyDonations";
 
 const router = createBrowserRouter([
     {
@@ -21,8 +21,8 @@ const router = createBrowserRouter([
             element:<DonationDetails></DonationDetails>
         },
         {
-            path:"all-donation",
-            element:<AllDonation></AllDonation>
+            path:"my-donations",
+            element:<MyDonations></MyDonations>
         },
         {
             path:"statistics",

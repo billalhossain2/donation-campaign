@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import storeDonationId from '../../../Utilities/storeDonationId';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const DonationDetails = () => {
   const {donationId} = useParams();
@@ -21,6 +23,7 @@ const DonationDetails = () => {
 
   const handleDonationStore = (donationId)=>{
     storeDonationId(donationId)
+    toast("Thank you for your donation.", {autoClose:2000, position:"top-center"})
   }
   return (
     <div className='my-16 rounded-lg'>
@@ -37,6 +40,7 @@ const DonationDetails = () => {
       </div>
       <h3 className='text-3xl font-bold my-8'>{donationDetails?.title}</h3>
       <p className='text-justify text-[#0B0B0BB2]'>{donationDetails?.description}</p>
+      <ToastContainer />
     </div>
   )
 }
