@@ -1,6 +1,11 @@
 import React from "react";
 import bgImage from "../../../../assets/background-image.jpg";
-const Banner = () => {
+const Banner = ({searchText, setSearchText}) => {
+  const handleSearch = e=>{
+    e.preventDefault()
+    const form = e.target;
+   setSearchText(form.search.value)
+  }
   return (
     <div
       className="hero"
@@ -16,13 +21,16 @@ const Banner = () => {
             I Grow By Helping People In Need
           </h1>
           {/* search field  */}
-          <div className="flex md:flex-row md:gap-0 gap-2 flex-col">
+          <div>
+              <form className="flex md:flex-row md:gap-0 gap-2 flex-col" action="" onSubmit={handleSearch}>
               <input
                 type="text"
-                placeholder="Search here...."
+                name="search"
+                placeholder="Search category"
                 className="md:w-auto w-[100%] outline-none border-[1px] border-solid border-gray-300 px-5 py-3 text-black md:rounded-l-xl rounded-md"
               />
-              <button className="bg-[#FF444A] hover:bg-[#FF444A] border-0 text-white px-5 md:py-0 py-3 md:rounded-r-xl rounded-md">Search</button>
+              <button className="bg-[#FF444A] hover:bg-[#FF444A] border-0 text-white px-5 md:py-0 py-3 md:rounded-r-xl md:rounded-none rounded-md">Search</button>
+              </form>
           </div>
         </div>
       </div>
