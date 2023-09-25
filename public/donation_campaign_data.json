@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "picture": "https://i.ibb.co/k4bJWn7/Health.png",
+      "title": "Donate for Better Health",
+      "category": "Health",
+      "card_bg_color": "#0052FF26",
+      "category_bg_color": "#0052FF33",
+      "text_color": "#0052FF",
+      "description": "Your generous donation can make a significant impact on improving healthcare access for those in need. Join us in our mission to provide quality medical care to underserved communities. Your contribution will help us purchase essential medical equipment, provide free health check-ups, and support life-saving treatments for those who cannot afford it. Together, we can make a healthier world."
+    },
+    {
+      "id": 2,
+      "picture": "https://i.ibb.co/xG0zKS9/Education.png",
+      "title": "Support Education for All",
+      "category": "Education",
+      "card_bg_color": "#FF444A26",
+      "category_bg_color": "#FF444A33",
+      "text_color": "#FF444A",
+      "description": "Every child deserves access to quality education. Your donation can transform lives by providing educational opportunities to underprivileged students. Join our campaign to support scholarships, build schools, and provide essential learning resources. Together, we can break the cycle of poverty and empower the next generation with knowledge and skills."
+    },
+    {
+      "id": 3,
+      "picture": "https://example.com/pic3.jpg",
+      "title": "Clothe the Needy",
+      "category": "Clothing",
+      "card_bg_color": "#79C23F26",
+      "category_bg_color": "#79C23F33",
+      "text_color": "#79C23F",
+      "description": "Many individuals and families are struggling to meet their basic clothing needs. Your donation can bring warmth and dignity to their lives. Join us in providing clothing, blankets, and essentials to those facing hardships. Together, we can make a difference in the lives of the less fortunate."
+    },
+    {
+      "id": 4,
+      "picture": "https://example.com/pic4.jpg",
+      "title": "Feed the Hungry",
+      "category": "Food",
+      "card_bg_color": "#F8714726",
+      "category_bg_color": "#F8714733",
+      "text_color": "#F87147",
+      "description": "Hunger is a pressing issue in many communities. Your contribution can help us provide nutritious meals to those who go to bed hungry. Join our mission to fight food insecurity by supporting food banks, meal programs, and community kitchens. Together, we can ensure that no one goes to sleep on an empty stomach."
+    },
+    {
+      "id": 5,
+      "picture": "https://i.ibb.co/k4bJWn7/Health.png",
+      "title": "Support Health Initiatives",
+      "category": "Health",
+      "card_bg_color": "#0052FF26",
+      "category_bg_color": "#0052FF33",
+      "text_color": "#0052FF",
+      "description": "Access to quality healthcare is a fundamental right. Your donation can help us fund medical research, provide healthcare services to marginalized populations, and improve healthcare infrastructure. Join us in the fight against diseases and health disparities. Together, we can save lives and enhance well-being."
+    },
+    {
+      "id": 6,
+      "picture": "https://i.ibb.co/xG0zKS9/Education.png",
+      "title": "Empower Education",
+      "category": "Education",
+      "card_bg_color": "#FF444A26",
+      "category_bg_color": "#FF444A33",
+      "text_color": "#FF444A",
+      "description": "Education is a powerful tool for transformation. Your support can empower individuals with knowledge and skills. Join our campaign to provide scholarships, educational technology, and mentorship programs. Together, we can create a brighter future for aspiring students."
+    },
+    {
+      "id": 7,
+      "picture": "https://example.com/pic7.jpg",
+      "title": "Clothing Drive for Families",
+      "category": "Clothing",
+      "card_bg_color": "#79C23F26",
+      "category_bg_color": "#79C23F33",
+      "text_color": "#79C23F",
+      "description": "Winter is approaching, and many families are in need of warm clothing. Your donation can bring comfort and hope to those facing cold temperatures without adequate clothing. Join us in collecting and distributing winter clothes to vulnerable families. Together, we can keep them warm and safe."
+    },
+    {
+      "id": 8,
+      "picture": "https://example.com/pic8.jpg",
+      "title": "Fight Hunger Together",
+      "category": "Food",
+      "card_bg_color": "#F8714726",
+      "category_bg_color": "#F8714733",
+      "text_color": "#F87147",
+      "description": "Hunger knows no boundaries, and it's our responsibility to combat it. Your donation can support food banks, meal delivery programs, and sustainable agriculture initiatives. Join us in the fight against hunger and malnutrition. Together, we can ensure that everyone has access to nutritious food."
+    },
+    {
+      "id": 9,
+      "picture": "https://i.ibb.co/k4bJWn7/Health.png",
+      "title": "Provide Healthcare Access",
+      "category": "Health",
+      "card_bg_color": "#0052FF26",
+      "category_bg_color": "#0052FF33",
+      "text_color": "#0052FF",
+      "description": "Access to healthcare is a basic human right, yet millions lack proper medical care. Your donation can help establish clinics, provide medication, and offer health education to underserved communities. Join us in improving healthcare access for all. Together, we can save lives and enhance well-being."
+    },
+    {
+      "id": 10,
+      "picture": "https://i.ibb.co/xG0zKS9/Education.png",
+      "title": "Empower Educators",
+      "category": "Education",
+      "card_bg_color": "#FF444A26",
+      "category_bg_color": "#FF444A33",
+      "text_color": "#FF444A",
+      "description": "Teachers play a pivotal role in shaping the future. Your support can empower educators with training, resources, and tools for effective teaching. Join our campaign to strengthen the education system and provide quality learning experiences. Together, we can equip educators to inspire and nurture the next generation."
+    },
+    {
+      "id": 11,
+      "picture": "https://example.com/pic11.jpg",
+      "title": "Clothe the Homeless",
+      "category": "Clothing",
+      "card_bg_color": "#79C23F26",
+      "category_bg_color": "#79C23F33",
+      "text_color": "#79C23F",
+      "description": "For the homeless, having warm clothing can be a matter of life and death during harsh winters. Your donation can provide blankets, jackets, and essentials to those living on the streets. Join us in making a difference in the lives of the homeless. Together, we can offer them warmth and hope."
+    },
+    {
+      "id": 12,
+      "picture": "https://example.com/pic12.jpg",
+      "title": "Support Food Security",
+      "category": "Food",
+      "card_bg_color": "#F8714726",
+      "category_bg_color": "#F8714733",
+      "text_color": "#F87147",
+      "description": "Food insecurity affects millions worldwide. Your donation can help us support sustainable farming, food distribution, and nutrition programs. Join us in the fight against hunger and malnutrition. Together, we can ensure that every person has access to nutritious and affordable food."
+    }
+  ]
+  
