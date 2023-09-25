@@ -24,7 +24,7 @@ const Navbar = () => {
         {/* Mobile Menu  */}
         <div className="lg:hidden md:hidden absolute right-3 top-5">
             <p onClick={handleShowBar} className="flex justify-end mb-3">{show ? <ImCross className="text-3xl"></ImCross> : <FaBars className="text-3xl"></FaBars>}</p>
-        <ul className={`relative duration-500 ${show ? 'top-0' : 'top-[-500px]'} text-right space-y-3`}>
+        <ul className={`relative duration-500 ${show ? 'top-0' : 'top-[-500px]'} text-right space-y-5 bg-[#bfd1d1da] pl-16 pb-16 pt-5 pe-3`}>
             <li><NavLink to="/">Home</NavLink></li>
             <li><NavLink to="./my-donations">Donation</NavLink></li>
             <li><NavLink to="./statistics">Statistics</NavLink></li>

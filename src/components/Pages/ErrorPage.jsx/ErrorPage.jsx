@@ -1,7 +1,9 @@
 import React from 'react'
 import { useNavigate, useRouteError } from 'react-router-dom'
 import notFoundImage from "../../../assets/not-found.png";
+import useTitle from '../../../Hooks/useTitle';
 const ErrorPage = () => {
+  useTitle("Error Page - Donation Campaign")
   const error = useRouteError()
   const navigate = useNavigate()
   const handleRedirectToHome = ()=>{

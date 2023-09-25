@@ -3,8 +3,10 @@ import { useParams } from 'react-router-dom'
 import storeDonationId from '../../../Utilities/storeDonationId';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import useTitle from '../../../Hooks/useTitle';
 
 const DonationDetails = () => {
+  useTitle("Donation Details - Donation Campaign")
   const {donationId} = useParams();
   const donationIntId = parseInt(donationId)
   
