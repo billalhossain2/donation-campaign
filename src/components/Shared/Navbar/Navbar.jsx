@@ -1,14 +1,30 @@
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
+import { FaBars } from 'react-icons/fa';
+import { ImCross } from 'react-icons/im';
+import { useState } from "react";
 const Navbar = () => {
+    const [show, setShow] = useState(false);
+    const handleShowBar = ()=>{
+        setShow(!show)
+    }
   return (
     <div className="flex justify-between items-center my-5">
         <div><p className="text-[#FF444A] font-bold text-3xl">Donation</p></div>
-        <ul className="flex gap-3">
+        <ul className="lg:flex md:flex hidden gap-3">
             <li><NavLink to="/">Home</NavLink></li>
             <li><NavLink to="./all-donation">Donation</NavLink></li>
             <li><NavLink to="./donation-details">Statistics</NavLink></li>
         </ul>
+        {/* Mobile Menu  */}
+        <div className="lg:hidden md:hidden absolute right-3 top-5">
+            <p onClick={handleShowBar} className="flex justify-end mb-3">{show ? <ImCross className="text-3xl"></ImCross> : <FaBars className="text-3xl"></FaBars>}</p>
+        <ul className={`relative duration-500 ${show ? 'top-0' : 'top-[-500px]'} text-right space-y-3`}>
+            <li><NavLink to="/">Home</NavLink></li>
+            <li><NavLink to="./all-donation">Donation</NavLink></li>
+            <li><NavLink to="./donation-details">Statistics</NavLink></li>
+        </ul>
+        </div>
     </div>
   )
 }
