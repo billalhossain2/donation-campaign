@@ -1,10 +1,20 @@
 import React from "react";
 import bgImage from "../../../../assets/background-image.jpg";
+import Swal from "sweetalert2";
 const Banner = ({setSearchText}) => {
   const handleSearch = e=>{
     e.preventDefault()
     const form = e.target;
-   setSearchText(form.search.value)
+    const searchTxt = form.search.value;
+    if(!searchTxt){
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops... Empty field!',
+        text: 'You did not give any value!',
+        footer: 'Please provide search category!',
+      })
+    }
+   setSearchText(searchTxt)
   }
   return (
     <div
