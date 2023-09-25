@@ -19,7 +19,7 @@ const Navbar = () => {
         <ul className="lg:flex md:flex hidden gap-3">
             <li><NavLink to="/">Home</NavLink></li>
             <li><NavLink to="./all-donation">Donation</NavLink></li>
-            <li><NavLink to="./donation-details">Statistics</NavLink></li>
+            <li><NavLink to="./statistics">Statistics</NavLink></li>
         </ul>
         {/* Mobile Menu  */}
         <div className="lg:hidden md:hidden absolute right-3 top-5">
@@ -27,7 +27,7 @@ const Navbar = () => {
         <ul className={`relative duration-500 ${show ? 'top-0' : 'top-[-500px]'} text-right space-y-3`}>
             <li><NavLink to="/">Home</NavLink></li>
             <li><NavLink to="./all-donation">Donation</NavLink></li>
-            <li><NavLink to="./donation-details">Statistics</NavLink></li>
+            <li><NavLink to="./statistics">Statistics</NavLink></li>
         </ul>
         </div>
     </div>
