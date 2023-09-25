@@ -1,6 +1,6 @@
 import React from "react";
 import bgImage from "../../../../assets/background-image.jpg";
-const Banner = ({searchText, setSearchText}) => {
+const Banner = ({setSearchText}) => {
   const handleSearch = e=>{
     e.preventDefault()
     const form = e.target;

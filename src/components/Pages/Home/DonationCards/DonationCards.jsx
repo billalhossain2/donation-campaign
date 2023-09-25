@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import DonationCardItem from '../DonationCardItem/DonationCardItem'
 
-const DonationCards = ({searchText, setSearchText}) => {
+const DonationCards = ({searchText}) => {
     const [donations, setDonations] = useState([])
 
     useEffect(()=>{
