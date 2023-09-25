@@ -1,4 +1,5 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+import logoImg from "../../../assets/Logo.png";
 import "./Navbar.css";
 import { FaBars } from 'react-icons/fa';
 import { ImCross } from 'react-icons/im';
@@ -10,7 +11,11 @@ const Navbar = () => {
     }
   return (
     <div className="flex justify-between items-center my-5">
-        <div><p className="text-[#FF444A] font-bold text-3xl">Donation</p></div>
+        <div>
+            <Link to="/"><p className="text-[#FF444A] font-bold text-3xl">
+                <img className="lg:w-auto lg:h-auto md:w-auto md:h-auto w-48" src={logoImg} alt="" />
+            </p></Link>
+        </div>
         <ul className="lg:flex md:flex hidden gap-3">
             <li><NavLink to="/">Home</NavLink></li>
             <li><NavLink to="./all-donation">Donation</NavLink></li>
