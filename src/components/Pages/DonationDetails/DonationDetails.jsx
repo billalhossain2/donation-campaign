@@ -1,17 +1,26 @@
 import React, { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 import storeDonationId from '../../../Utilities/storeDonationId';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import useTitle from '../../../Hooks/useTitle';
 
+import {FaArrowLeft} from "react-icons/fa"
+
 const DonationDetails = () => {
   useTitle("Donation Details - Donation Campaign")
+
+  const navigate = useNavigate()
   const {donationId} = useParams();
   const donationIntId = parseInt(donationId)
   
   //get specific donation based on id
   const [donationDetails, setDonationDetails] = useState(null)
+
+  //go back 
+  const handleGoBack = ()=>{
+    navigate(-1)
+  }
 
   useEffect(()=>{
     fetch('../donation_campaign_data.json')
@@ -28,7 +37,9 @@ const DonationDetails = () => {
     toast("Thank you for your donation.", {autoClose:2000, position:"top-center"})
   }
   return (
+    <>
     <div className='my-16 rounded-lg'>
+    <button onClick={handleGoBack} style={{backgroundColor:donationDetails?.text_color}} className='mb-3 btn text-white'><FaArrowLeft className='text-2xl'></FaArrowLeft> Go Back</button>
       <div className='md:min-h-[550px] min-h-[350px] relative' style={{
         backgroundImage:`url(${donationDetails?.picture})`,
         backgroundSize:'100% 100%',
@@ -36,7 +47,7 @@ const DonationDetails = () => {
         
       }}>
       <div className='bg-[#0B0B0B80] absolute w-full bottom-0 py-5'>
-        <button onClick={()=>handleDonationStore(donationDetails.id)} style={{backgroundColor:donationDetails?.text_color}} className='font-bold px-5 py-3 rounded-sm text-white ml-9'>Donate {donationDetails?.price}</button>
+        <button onClick={()=>handleDonationStore(donationDetails.id)} style={{backgroundColor:donationDetails?.text_color}} className='font-bold px-5 py-3 rounded-sm text-white ml-9'>Donate ${donationDetails?.price}</button>
       </div>
 
       </div>
@@ -44,6 +55,7 @@ const DonationDetails = () => {
       <p className='text-justify text-[#0B0B0BB2]'>{donationDetails?.description}</p>
       <ToastContainer />
     </div>
+    </>
   )
 }
 

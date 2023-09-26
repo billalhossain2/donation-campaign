@@ -1,6 +1,6 @@
 import useTitle from "../../../Hooks/useTitle";
 
-import React, { PureComponent, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   PieChart,
   Pie,

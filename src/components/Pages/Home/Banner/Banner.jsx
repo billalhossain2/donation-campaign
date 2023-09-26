@@ -35,7 +35,7 @@ const Banner = ({setSearchText}) => {
           <div>
               <form className="flex md:flex-row md:gap-0 gap-2 flex-col" action="" onSubmit={handleSearch}>
               <input
-                type="text"
+                type="search"
                 name="search"
                 placeholder="Search category"
                 className="md:w-auto w-[100%] outline-none border-[1px] border-solid border-gray-300 px-5 py-3 text-black md:rounded-l-xl rounded-md"

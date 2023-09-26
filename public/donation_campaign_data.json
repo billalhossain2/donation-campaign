@@ -32,6 +32,7 @@
     "description": "Many individuals and families are struggling to meet their basic clothing needs. Your donation can bring warmth and dignity to their lives. Join us in providing clothing, blankets, and essentials to those facing hardships. Together, we can make a difference in the lives of the less fortunate.",
     "price": 110
   },
+
   {
     "id": 4,
     "picture": "https://i.ibb.co/WyP3sFL/feed-hungry.jpg",
@@ -43,41 +44,9 @@
     "description": "Hunger is a pressing issue in many communities. Your contribution can help us provide nutritious meals to those who go to bed hungry. Join our mission to fight food insecurity by supporting food banks, meal programs, and community kitchens. Together, we can ensure that no one goes to sleep on an empty stomach.",
     "price": 115
   },
+
   {
     "id": 5,
-    "picture": "https://i.ibb.co/G0ZyP3S/health-initiatives.jpg",
-    "title": "Support Health Initiatives",
-    "category": "Health",
-    "card_bg_color": "#0052FF26",
-    "category_bg_color": "#0052FF33",
-    "text_color": "#0052FF",
-    "description": "Access to quality healthcare is a fundamental right. Your donation can help us fund medical research, provide healthcare services to marginalized populations, and improve healthcare infrastructure. Join us in the fight against diseases and health disparities. Together, we can save lives and enhance well-being.",
-    "price": 180
-  },
-  {
-    "id": 6,
-    "picture": "https://i.ibb.co/W6rRMtD/empower-education.jpg",
-    "title": "Empower Education",
-    "category": "Education",
-    "card_bg_color": "#FF444A26",
-    "category_bg_color": "#FF444A33",
-    "text_color": "#FF444A",
-    "description": "Education is a powerful tool for transformation. Your support can empower individuals with knowledge and skills. Join our campaign to provide scholarships, educational technology, and mentorship programs. Together, we can create a brighter future for aspiring students.",
-    "price": 250
-  },
-  {
-    "id": 7,
-    "picture": "https://i.ibb.co/m5PrqxL/clothing-drive.jpg",
-    "title": "Clothing Drive for Families",
-    "category": "Clothing",
-    "card_bg_color": "#79C23F26",
-    "category_bg_color": "#79C23F33",
-    "text_color": "#79C23F",
-    "description": "Winter is approaching, and many families are in need of warm clothing. Your donation can bring comfort and hope to those facing cold temperatures without adequate clothing. Join us in collecting and distributing winter clothes to vulnerable families. Together, we can keep them warm and safe.",
-    "price": 125
-  },
-  {
-    "id": 8,
     "picture": "https://i.ibb.co/pR4QtRz/fight-hunger-together.jpg",
     "title": "Fight Hunger Together",
     "category": "Food",
@@ -87,6 +56,42 @@
     "description": "Hunger knows no boundaries, and it's our responsibility to combat it. Your donation can support food banks, meal delivery programs, and sustainable agriculture initiatives. Join us in the fight against hunger and malnutrition. Together, we can ensure that everyone has access to nutritious food.",
     "price": 150
   },
+  {
+    "id": 6,
+    "picture": "https://i.ibb.co/m5PrqxL/clothing-drive.jpg",
+    "title": "Clothing Drive for Families",
+    "category": "Clothing",
+    "card_bg_color": "#79C23F26",
+    "category_bg_color": "#79C23F33",
+    "text_color": "#79C23F",
+    "description": "Winter is approaching, and many families are in need of warm clothing. Your donation can bring comfort and hope to those facing cold temperatures without adequate clothing. Join us in collecting and distributing winter clothes to vulnerable families. Together, we can keep them warm and safe.",
+    "price": 125
+  },
+
+  {
+    "id": 7,
+    "picture": "https://i.ibb.co/W6rRMtD/empower-education.jpg",
+    "title": "Empower Education",
+    "category": "Education",
+    "card_bg_color": "#FF444A26",
+    "category_bg_color": "#FF444A33",
+    "text_color": "#FF444A",
+    "description": "Education is a powerful tool for transformation. Your support can empower individuals with knowledge and skills. Join our campaign to provide scholarships, educational technology, and mentorship programs. Together, we can create a brighter future for aspiring students.",
+    "price": 250
+  },
+
+  {
+    "id": 8,
+    "picture": "https://i.ibb.co/G0ZyP3S/health-initiatives.jpg",
+    "title": "Support Health Initiatives",
+    "category": "Health",
+    "card_bg_color": "#0052FF26",
+    "category_bg_color": "#0052FF33",
+    "text_color": "#0052FF",
+    "description": "Access to quality healthcare is a fundamental right. Your donation can help us fund medical research, provide healthcare services to marginalized populations, and improve healthcare infrastructure. Join us in the fight against diseases and health disparities. Together, we can save lives and enhance well-being.",
+    "price": 180
+  },
+
   {
     "id": 9,
     "picture": "https://i.ibb.co/G3tpPL9/health-access.jpg",
