@@ -1,6 +1,7 @@
 import React from "react";
 import bgImage from "../../../../assets/background-image.jpg";
 import Swal from "sweetalert2";
+
 const Banner = ({setSearchText}) => {
   const handleSearch = e=>{
     e.preventDefault()
